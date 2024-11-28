@@ -1,6 +1,6 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
-import { Table } from "@/components/Table";
+// import { Table } from "@/components/Table";
 
 
 const members = () => {

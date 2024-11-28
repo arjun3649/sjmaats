@@ -1,0 +1,140 @@
+import { type Member } from "@/types/types";
+
+export const committeeMembers: Member[] = [
+    {
+      name: "ABHILASH GUPTA",
+      imageUrl: "https://vaave.s3.amazonaws.com/album_photos/851f5ac9941d720844d143ed9cfcf60a_69fcf6785ab4310eb3227c8bf35b9520_thumb.jpeg",
+      batch: "1982 Batch",
+      role: "CHAIRMAN",
+      dob: "03/15/1982",
+      annidate: "06/21/2022",
+    },
+    {
+      name: "Dr. Suresh Kumar Maurya",
+      imageUrl: "https://vaave.s3.amazonaws.com/album_photos/851f5ac9941d720844d143ed9cfcf60a_fa257568318b3bae8b8770fb4f8fbd47_thumb.jpg",
+      batch: "1982 Batch",
+      role: "CHAIRMAN",
+      dob: "11/12/1984",
+      annidate: "08/15/2022",
+    },
+    {
+      name: "Madhulika Tyagi Tyagi",
+      imageUrl: "https://vaave.s3.amazonaws.com/album_photos/851f5ac9941d720844d143ed9cfcf60a_67774d898676c881fad7e4217ea39b2f_thumb.jpeg",
+      batch: "1982 Batch",
+      role: "CHAIRMAN",
+      dob: "1/25/1989",  // November birthday
+      annidate: "11/30/2022",  // November anniversary
+    },
+    {
+      name: "Vishal Bhargava",
+      imageUrl: "https://vaave.s3.amazonaws.com/album_photos/851f5ac9941d720844d143ed9cfcf60a_2c2f2dee49a1f06aafcd02c83263fea5_thumb.jpeg",
+      batch: "1982 Batch",
+      role: "CHAIRMAN",
+      dob: "11/15/1999",  // November birthday
+      annidate: "05/20/2022",
+    },
+    {
+      name: "Anoop Gupta",
+      imageUrl: "https://vaave.s3.amazonaws.com/album_photos/851f5ac9941d720844d143ed9cfcf60a_7f5807ad6cc6833469393eaf8d974368_thumb.jpg",
+      batch: "1982 Batch",
+      role: "CHAIRMAN",
+      dob: "05/05/2000",
+      annidate: "11/28/2022",  // November anniversary
+    },
+    {
+      name: "Ashwin Sahai",
+      imageUrl: "https://vaave.s3.amazonaws.com/album_photos/851f5ac9941d720844d143ed9cfcf60a_bdb0270ff1e6929a3b2bde245382a410_thumb.jpg",
+      batch: "1982 Batch",
+      role: "CHAIRMAN",
+      dob: "1/06/1999",  // November birthday
+      annidate: "11/10/2022",  // November anniversary
+    },
+    {
+      name: "GAURAV RANA",
+      imageUrl: "https://vaave.s3.amazonaws.com/album_photos/851f5ac9941d720844d143ed9cfcf60a_8a513203182295cef9cd16a7b9e78cba_thumb.jpeg",
+      batch: "1982 Batch",
+      role: "CHAIRMAN",
+      dob: "11/07/1993",
+      annidate: "09/15/2022",
+    },
+    {
+      name: "Anchal Srivastava",
+      imageUrl: "https://vaave.s3.amazonaws.com/album_photos/851f5ac9941d720844d143ed9cfcf60a_159b2986e09252598171a3050340e01d_thumb.jpeg",
+      batch: "1982 Batch",
+      role: "CHAIRMAN",
+      dob: "08/08/1995",
+      annidate: "04/22/2022",
+    },
+    {
+      name: "Saurabh Maheshwari",
+      imageUrl: "https://vaave.s3.amazonaws.com/album_photos/851f5ac9941d720844d143ed9cfcf60a_451cc6532795ceb990bc987b1dc24c2d_thumb.jpeg",
+      batch: "1982 Batch",
+      role: "CHAIRMAN",
+      dob: "09/09/1998",
+      annidate: "02/14/2022",
+    },
+    {
+      name: "Shirshak Sah",
+      imageUrl: "https://vaave.s3.amazonaws.com/album_photos/851f5ac9941d720844d143ed9cfcf60a_333830f962b69f17d7a30f795e421a23_thumb.jpeg",
+      batch: "1982 Batch",
+      role: "CHAIRMAN",
+      dob: "10/11/1991",
+      annidate: "07/30/2022",
+    },
+    {
+      name: "Munmun Sengupta",
+      imageUrl: "https://vaave.s3.amazonaws.com/album_photos/851f5ac9941d720844d143ed9cfcf60a_4ae7d25052c79f603edf6814464202db_thumb.jpeg",
+      batch: "1982 Batch",
+      role: "CHAIRMAN",
+      dob: "01/21/1997",
+      annidate: "03/15/2022",
+    },
+    {
+      name: "Devesh Nagpal",
+      imageUrl: "https://vaave.s3.amazonaws.com/album_photos/851f5ac9941d720844d143ed9cfcf60a_fba5d9492f7309f0565b5969ab6d937a_thumb.jpg",
+      batch: "1982 Batch",
+      role: "CHAIRMAN",
+      dob: "12/12/1994",
+      annidate: "10/05/2022",
+    },
+    {
+      name: "Ishan Agrawal",
+      imageUrl: "https://vaave.s3.amazonaws.com/album_photos/851f5ac9941d720844d143ed9cfcf60a_bb6e7c00df9179200f755c79be78641c_thumb.jpeg",
+      batch: "1982 Batch",
+      role: "CHAIRMAN",
+      dob: "01/01/1996",
+      annidate: "12/25/2022",
+    },
+    {
+      name: "Abhishek Sharma",
+      imageUrl: "https://vaave.s3.amazonaws.com/album_photos/851f5ac9941d720844d143ed9cfcf60a_b6d00bd540741d4f19cb406ab1e31ced_thumb.jpeg",
+      batch: "1982 Batch",
+      role: "CHAIRMAN",
+      dob: "02/02/1992",
+      annidate: "08/08/2022",
+    },
+    {
+      name: "Sandeep Naik",
+      imageUrl: "https://vaave.s3.amazonaws.com/album_photos/851f5ac9941d720844d143ed9cfcf60a_2db8ff7cf90df83eb1393109d5005dc0_thumb.jpeg",
+      batch: "1982 Batch",
+      role: "CHAIRMAN",
+      dob: "03/03/1990",
+      annidate: "05/17/2022",
+    },
+    {
+      name: "Dr. Vaibhav S",
+      imageUrl: "https://vaave.s3.amazonaws.com/album_photos/851f5ac9941d720844d143ed9cfcf60a_e1c3456f8ed908635811e5373d8f71d6_thumb.jpeg",
+      batch: "1982 Batch",
+      role: "CHAIRMAN",
+      dob: "06/18/1982",
+      annidate: "01/30/2022",
+    },
+    {
+      name: "Amit Kalra",
+      imageUrl: "https://vaave.s3.amazonaws.com/album_photos/851f5ac9941d720844d143ed9cfcf60a_91c51005f6ed774ae23e91f38d26815e_thumb.jpg",
+      batch: "1982 Batch",
+      role: "CHAIRMAN",
+      dob: "04/12/1986",
+      annidate: "09/09/2022",
+    },
+  ];

@@ -1,6 +1,6 @@
+import { committeeMembers } from "@/utils/ReminderData";
 import { type FC } from "react";
 import MonthlyCard from "./MonthlyCard";
-import { committeeMembers } from "@/utils/ReminderData";
 
 const MonthlyReminders: FC = () => {
   // Get the current month
@@ -10,7 +10,10 @@ const MonthlyReminders: FC = () => {
   const birthdayData = committeeMembers.filter((member) => {
     if (member.dob) {
       const [month] = member.dob.split("/");
-      return parseInt(month) === currentMonth;
+
+      if (month) {
+        return parseInt(month) === currentMonth;
+      }
     }
     return false;
   });
@@ -19,7 +22,9 @@ const MonthlyReminders: FC = () => {
   const anniversaryData = committeeMembers.filter((member) => {
     if (member.annidate) {
       const [month] = member.annidate.split("/");
-      return parseInt(month) === currentMonth;
+      if (month) {
+        return parseInt(month) === currentMonth;
+      }
     }
     return false;
   });

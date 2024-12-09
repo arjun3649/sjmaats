@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import { Table } from "@/components/Table/Table";
 // import { Table } from "@/components/Table";
 
 
@@ -42,7 +43,7 @@ const members = () => {
     <div>
       <Navbar />
       <div className="flex items-center justify-center m-auto max-w-6xl ">
-        {/* <Table data={users}/> */}
+        <Table data={users}/>
       </div>
       <Footer/>
     </div>
